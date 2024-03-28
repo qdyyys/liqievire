@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #1e2026;
+}
+@font-face {
+    font-family:  'Cruinn Bold.';
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/Cruinn\ Bold.woff);
+    src: url(../fonts/Cruinn\ Bold.woff2);
+    src: url(../fonts/Cruinn\ Bold.ttf);
+    font-weight: 700;
+}
+.color-yellow {
+    color: #ceb031;
+}
+/* PAGE */
+.page {
+    font-family: 'SpaceGrotesk';
+}
+.header {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.logo_header {
+    width: 400px;
+
+    animation: logoanim 4s infinite ease;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.main-section {
+    font-family: 'Cruinn Bold.';
+    color: #fff;
+    font-size: 55px;
+    
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    margin: 0 auto;
+}
+.title {
+    margin-bottom: 50px;
+}
+.btn { 
+    background-color: #ceb031;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color:#1e2026;
+    font-weight: 700;
+
+    transition: .2s linear;
+}
+.img-main {
+    height: 560px;
+
+    animation: anim-qube 3s infinite ease-in-out;
+}
+
+/* PAGE */
+
+
+
+
+/* @keyframes  logoanim {
+    0% {
+        transform: scale(0.9);
+    } 
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+} */
+
+
+
+@keyframes anim-qube {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
